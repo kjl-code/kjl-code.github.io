@@ -21,7 +21,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;测试图片&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt=&#34;image-20260827203801509&#34; loading=&#34;lazy&#34; src=&#34;dotnet%E2%80%91hello%E2%80%91world.assets/image-20260827203801509.png&#34;&gt;&lt;/p&gt;</description>
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/image-20260827203801509.png&#34;
+         alt=&#34;控制台Hello World效果&#34; width=&#34;700&#34; height=&#34;300&#34;/&gt; &lt;figcaption&gt;
+            .NET运行截图
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
     </item>
   </channel>
 </rss>
