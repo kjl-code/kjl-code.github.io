@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>.NET程序员技术笔记</title><link>https://kjl-code.github.io/</link><description>Recent content on .NET程序员技术笔记</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://kjl-code.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>.NET控制台程序入门笔记</title><link>https://kjl-code.github.io/posts/dotnethelloworld/</link><pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate><guid>https://kjl-code.github.io/posts/dotnethelloworld/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
+&lt;h1 id="net-控制台hello-world示例"&gt;.NET 控制台Hello World示例&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Console.WriteLine(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;测试图片&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+&lt;img loading="lazy" src="https://kjl-code.github.io/images/image-20260827203801509.png"
+alt="控制台Hello World效果" width="700" height="300"/&gt; &lt;figcaption&gt;
+.NET运行截图
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item></channel></rss>
