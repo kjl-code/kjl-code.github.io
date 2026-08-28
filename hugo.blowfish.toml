@@ -1,0 +1,63 @@
+baseURL = "https://kjl-code.github.io/"
+languageCode = "zh-cn"
+title = "我的技术笔记"
+theme = "blowfish"
+
+disableKinds = []
+
+# --------------------------站点作者（Blowfish必须是对象格式，之前报错根源）--------------------------
+[params]
+  description = "程序员学习笔记、项目复盘、踩坑记录"
+
+  [params.author]
+    name = "你的名字"
+    email = ""
+
+  # ============ 目录完整配置（侧边悬浮目录、滚动高亮）============
+  toc = true          # 全局开启文章目录
+  tocOpen = true      # 目录默认展开
+  tocSidebar = true   # ✅ 开启侧边悬浮目录（你缺失的关键开关！）
+
+  # ============ 搜索功能配置 ============
+  search = true       # ✅ 开启站内搜索
+  searchHidden = false
+
+  # ============ 代码块优化（程序员必备） ============
+  highlight = true
+  highlightCopy = true    # 代码一键复制按钮
+  highlightLineNumbers = true # 代码行号
+
+  # 主题切换 auto自动/light浅色/dark深色
+  themeDisplay = "auto"
+
+  homePagePosts = 8
+
+# --------------------------导航菜单--------------------------
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 4
+
+# --------------------------页脚版权--------------------------
+[params.footer]
+  copyright = "© 2026 你的名字"
+
+# --------------------------多语言配置--------------------------
+[languages.zh-cn]
+  languageName = "简体中文"
+  weight = 1

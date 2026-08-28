@@ -1,0 +1,55 @@
+mainSections = ["posts"]
+description = ".NET后端｜程序员技术博客｜学习笔记与项目复盘"
+
+# ==========侧边栏头像&简介（修复！avatar直接写路径，不能嵌套！） ==========
+[sidebar]
+avatar = "/images/avatar.png"
+subtitle = "记录 .NET 后端开发、学习笔记与项目实践"
+
+# ==========社交图标 ==========
+[[social]]
+    name = "GitHub"
+    url = "https://github.com/你的账号"
+
+[[social]]
+    name = "Twitter"
+    url = "https://twitter.com/xxx"
+
+# ==========侧边小组件（首页右侧归档、标签云） ==========
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+# ==========文章配置 V4正确对象写法 ==========
+[dateFormat]
+    published = "2006年1月2日"
+    lastUpdated = "2006年1月2日"
+
+[article]
+    readingTime = true
+    toc = true
+
+# =========代码块 =========
+[highlight]
+    copy = true
+    lineNumbers = true
+
+# =========搜索 =========
+[search]
+    enable = true
+
+# 深色模式
+displayMode = "auto"
+
+postCardCover = true
+articleCover = true
+
+#版权
+[article.footer.copyright]
+enable = true
+text = "© 2026 你的名字"

@@ -1,0 +1,18 @@
+baseURL = "https://kjl-code.github.io/"
+languageCode = "zh-cn"
+title = ".NET程序员技术笔记"
+
+theme = "PaperMod"
+
+[params]
+author = "猿小白"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true #代码块一键复制，写C#笔记神器
+showToc = true        # 开启文章目录
+  tocOpen = true        # 目录默认展开，不用手动点
+
+[homeInfoParams]
+Title = "欢迎来到我的技术博客"
+Content = "记录 .NET、C#、后端开发学习笔记 | 持续更新"
