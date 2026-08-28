@@ -1,0 +1,1 @@
+(()=>{var o=document.querySelector(".scroll-to-top");if(o){let t=()=>{o.classList.toggle("is-visible",window.scrollY>300)};window.addEventListener("scroll",t,{passive:!0}),t(),o.addEventListener("click",()=>{window.scrollTo({top:0,behavior:"smooth"})})}})();
