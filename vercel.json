@@ -1,4 +1,5 @@
 {
+  "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.159.2/hugo_extended_0.159.2_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz && tar -xzf /tmp/hugo.tar.gz -C /tmp && mv /tmp/hugo /usr/local/bin/hugo && hugo version",
   "buildCommand": "hugo --gc --minify --baseURL https://$VERCEL_URL",
   "outputDirectory": "public",
   "cleanUrls": true,
