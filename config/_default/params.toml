@@ -49,6 +49,14 @@ displayMode = "auto"
 postCardCover = true
 articleCover = true
 
+[umamiAnalytics]
+  websiteid = "YOUR_UMAMI_WEBSITE_ID"
+  # domain = "umami.yourdomain.com"  # 自托管 Umami 时填写，去掉前缀 https://
+  # dataDomains = "yoursite.com,blog.yoursite.com"  # 可选：限制哪些域名统计
+  # scriptName = "script.js"  # 可选：若自定义脚本文件名
+  doNotTrack = false
+  enableTrackEvent = true
+
 #版权
 [article.footer.copyright]
 enable = true

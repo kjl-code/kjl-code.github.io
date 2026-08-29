@@ -1,3 +1,14 @@
+{{- $umamiConfig := site.Params.umamiAnalytics -}}
+{{- with $umamiConfig.websiteid -}}
+<script
+    async
+    src="{{ if isset $umamiConfig "domain" }}https://{{ $umamiConfig.domain }}/{{ with $umamiConfig.scriptName }}{{ . }}{{ else }}script.js{{ end }}{{ else }}https://analytics.umami.is/script.js{{ end }}"
+    data-website-id="{{ . }}"
+    {{ with $umamiConfig.dataDomains }}data-domains="{{ . }}"{{ end }}
+    data-do-not-track="{{ $umamiConfig.doNotTrack | default false }}"
+></script>
+{{- end -}}
+
 {{- $opts := dict
     "minify" hugo.IsProduction
     "params" (dict
